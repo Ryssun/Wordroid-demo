@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:background="@drawable/main_back">
+  <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal">
+  <TextView  
+   android:text="中文"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content" 
+   android:textSize="40px"
+   android:textColor="#4ba633"
+  />
+</LinearLayout>
+<LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal">
+  <TextView
+      android:id="@+id/EditWord_spelling"
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content"
+  android:lines="3"
+  android:textSize="30px"
+  android:textColor="#ff6600"
+  android:background="@drawable/panel"/>
+  </LinearLayout>
+  <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal">
+  <TextView  
+   android:text="拉丁名"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content" 
+   android:textSize="40px"
+   android:textColor="#4ba633"
+  />
+</LinearLayout>
+<LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  android:background="@drawable/panel">
+  <TextView 
+         android:id="@+id/EditWord_meanning"
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content" 
+  android:lines="3"
+  android:textSize="30px"
+  android:textColor="#ff6600"
+      />
+  </LinearLayout>
+ <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  android:gravity="center_horizontal">
+  <Button
+		android:id="@+id/attention_confirm_button"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="返回"
+		android:textColor="#000000"
+		android:background="@drawable/white_btn"
+	></Button>
+   </LinearLayout>
+</LinearLayout>
